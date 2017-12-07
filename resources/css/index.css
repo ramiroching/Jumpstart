@@ -16,12 +16,28 @@
   background-repeat: no-repeat;
   color: white;
   text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+.buttonclass {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
 }
 
+.slick-list{
+  position: relative;
+  display: block;
+}
+.slick-track{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
 .background-bike {
   background-image: url("../images/jumbotron-bike.jpg");
 }
@@ -53,4 +69,19 @@ strong{
 
 .foot{
   width: 100%;
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
 }
+
+.col-md-6:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+  }
+  .buttonfoot {
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+  }
