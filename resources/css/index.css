@@ -54,9 +54,6 @@
   background-image: url("../images/jumbotron-duffel.jpg");
 }
 
-.FeaturedProject{
-  margin-top: 32px;
-}
 .feature{
   margin-bottom: 32px;
 }
@@ -85,11 +82,6 @@ strong{
     width: 100%;
     text-align: center;
   }
-
-  .image-container {
-    overflow: hidden;
-  }
-
 
   .image-container img:hover {
   opacity: 1;
